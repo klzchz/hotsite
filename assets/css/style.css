@@ -1,0 +1,340 @@
+.alert-orange {
+    color: #fff;
+    background-color: #e25822;
+    border-color: #e25822;
+    text-align: center;
+    font-style: italic;
+
+}
+.alert-link{
+    text-decoration-color: white;
+    color: white;
+
+}
+.alert-link:hover{
+    text-decoration-color: white;
+    color: white;
+
+}
+nav.navbar {
+    
+    margin-top: -16px !important;
+    color: #130400;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.navbar-dark .navbar-nav .nav-link {
+  
+  margin-right:25px;
+  color: #565656 !important;
+  margin-bottom: -10px;
+}
+.bg-dark {
+    background-color: #c8c8c8 !important;
+    color: #565656 !important;
+
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #565656 !important;
+    border-bottom: none;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #565656 !important;
+}
+img.custom-logo {
+    max-height: 32px;
+    width: auto;
+    
+    color: #565656 !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+
+}
+@media (min-width: 768px)
+{
+    .navbar-expand-md {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .navbar {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+    }
+}
+.newsletter{
+    background-color: #fff;
+    padding: 15px;
+}
+.newsletter h1{
+    text-align: center;
+}
+newsletter p{
+    text-align: justify !important;
+}
+.btn-default{
+    
+    padding: 14px;
+    margin-right: 5px;
+    
+    background-color: #130400;
+    color: #ffffff;
+    padding-right: 50px !important;
+    padding-left: 50px !important;
+}
+.btn-default:hover{
+
+    padding: 14px;
+    margin-right: 5px;
+    background-color: #130400;
+    color: #ffffff;
+}
+.form-control{
+    padding: 26px;
+    margin-left: 60px;
+
+ }
+.formt{
+    border: 15px solid black !important;
+}
+.cards{
+    background-color: #ccc;
+    padding: 100px;
+}
+.card{
+    width: 100% !important;
+}
+.card-body{
+    min-height: 200px;
+}
+.img-card {
+    
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 30px;
+}
+.action-figure {
+    margin-top: 2px;
+    margin-bottom: -20px;
+}
+.banner{
+    width: 100%;
+    margin-top: -25px;
+}
+.navigation{
+    float: center;
+}
+.depoimentos{
+    background-color: #ccc;
+    padding: 5px;
+}
+
+
+
+.cta-100 {
+    margin-top: 100px;
+    padding-left: 8%;
+    padding-top: 7%;
+  }
+  .col-md-4{
+      padding-bottom:20px;
+  }
+  
+  .white {
+    color: #fff !important;
+  }
+  .mt{float: left;margin-top: -20px;padding-top: 20px;}
+  .bg-blue-ui {
+    background-color: #708198 !important;
+  }
+  figure img{width:300px;}
+  
+  #blogCarousel {
+    padding-bottom: 100px;
+  }
+  
+  .blog .carousel-indicators {
+    left: 0;
+    top: -50px;
+    height: 50%;
+  }
+  
+  
+  /* The colour of the indicators */
+  
+  .blog .carousel-indicators li {
+    background: #708198;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+  }
+  
+  .blog .carousel-indicators .active {
+    background: #0fc9af;
+  }
+  
+  
+  
+  
+  .item-carousel-blog-block {
+    outline: medium none;
+    padding: 15px;
+  }
+  
+  .item-box-blog {
+    border: 1px solid #dadada;
+    text-align: center;
+    z-index: 4;
+    padding: 20px;
+  }
+  
+  .item-box-blog-image {
+    position: relative;
+  }
+  
+  .item-box-blog-image figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .item-box-blog-date {
+    position: absolute;
+    z-index: 5;
+    padding: 4px 20px;
+    top: -20px;
+    right: 8px;
+    background-color: #41cb52;
+  }
+  
+  .item-box-blog-date span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .item-box-blog-date span.mon {
+    font-size: 18px;
+  }
+  
+  .item-box-blog-date span.day {
+    font-size: 16px;
+  }
+  
+  .item-box-blog-body {
+    padding: 10px;
+  }
+  
+  .item-heading-blog a h5 {
+    margin: 0;
+    line-height: 1;
+    text-decoration:none;
+    transition: color 0.3s;
+  }
+  
+  .item-box-blog-heading a {
+      text-decoration: none;
+  }
+  
+  .item-box-blog-data p {
+    font-size: 13px;
+  }
+  
+  .item-box-blog-data p i {
+    font-size: 12px;
+  }
+  
+  .item-box-blog-text {
+    max-height: 100px;
+    overflow: hidden;
+  }
+  
+  .mt-10 {
+    float: left;
+    margin-top: -10px;
+    padding-top: 10px;
+  }
+  
+  .btn.bg-blue-ui.white.read {
+    cursor: pointer;
+    padding: 4px 20px;
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .btn.bg-blue-ui.white.read:hover {
+    box-shadow: 0px 5px 15px inset #4d5f77;
+  }
+  
+
+footer {
+    padding: 2rem 0 0;
+    color: var(--light-gray);
+}
+ul.site-map li a {
+    color: var(--gray);
+}
+
+#mainNavbar li{
+  
+  display: block;
+  float: left !important;
+  margin-right:5px !important;
+  
+}
+#rightNav
+{
+  margin-top: 5px;
+  display: block;
+  float: right !important; 
+  margin-right:120px !important;
+}
+#buscarNav
+{
+  margin-right: 5px !important;
+}
+.newsletterform
+{
+  
+}
+
+#aaaaaa:focus ,input:focus{
+  outline: none;
+  border: none;
+}
+.action-2{
+  margin-top: 10px;
+}
+.page-link{
+  position: relative;
+  display: block;
+  border-radius: -5px;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #130400;
+  background-color: #fff;
+  
+}
